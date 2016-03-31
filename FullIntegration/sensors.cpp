@@ -7,6 +7,7 @@
  *
  * ****************************/
 
+#include <CapacitiveSensor.h>
 #include "sensors.h"
 
 /* Create instances of sensors */
