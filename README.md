@@ -1,8 +1,8 @@
-# LM-CEW-Automation-
+#LM-CEW-Automation-
 
 EE296 LM
 
-Repository to hold code that controls an arduino microcontroller and a fedback position sensor to automate the process of CEW.
+Repository to hold code that controls an arduino microcontroller and a feedback position sensor to automate the process of CEW.
 
 Sections include :
 
