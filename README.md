@@ -1,11 +1,12 @@
 #LM-CEW-Automation-
 
-EE296 LM
+EE296 Liquid-Metal Electronics
 
-Repository to hold code that controls an arduino microcontroller and a feedback position sensor to automate the process of CEW.
+Repository to hold code that controls an Arduino microcontroller and feedback position sensors to automate the process of CEW.
 
-Sections include :
+Sections include:
 
-1. Intial voltage signal output to start LM slug
-2. Position feedback signal
-3. Second voltage signal ouput to stop LM slug
+1. Full Integration module
+2. Isolated sensor reading module
+3. Isolated positional input module
+4. Isolated voltage trigger module
