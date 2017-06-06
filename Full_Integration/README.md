@@ -1,3 +1,3 @@
-# LM-CEW-Automation-
+# Full Integration module
 
-Full CEW automation code. Integrates all modules to obtain the working automation code.
+Integrates all modules to obtain the working automation code.

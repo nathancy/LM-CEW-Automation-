@@ -1,10 +1,10 @@
-#LM-CEW-Automation-
+# LM-CEW-Automation-
 
-EE296 Liquid-Metal Electronics
+Liquid-Metal Electronics
 
-Repository to hold code that controls an Arduino microcontroller and feedback position sensors to automate the process of CEW.
+Respository that holds code to control an Arduino microcontroller and capacativie displacement sesnrso to automate the process of continuinous electrowetting. This implementation enables accurate positional control by utilizing a microcontroller and positional feedback sensors using the [Capacitive Sensing Library](http://playground.arduino.cc/Main/CapacitiveSensor?from=Main.CapSense) to directly improve liquid metal testing.
 
-Sections include:
+# Modules
 
 1. Full Integration module
 2. Isolated sensor reading module

@@ -1,4 +1,4 @@
-# LM-CEW-Automation-
+# Voltage test module
 
 Isolated module used to test voltage trigger.
 Code used to test voltage output from LOW to HIGH and vise versa.
