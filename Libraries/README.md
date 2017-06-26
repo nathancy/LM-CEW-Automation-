@@ -1,4 +1,4 @@
-#CapacitiveSensor Library#
+# CapacitiveSensor Library
 
 Capacitive Sensing Library by Paul Badger
 

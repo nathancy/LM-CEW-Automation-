@@ -10,3 +10,10 @@ Repository that holds code to control an Arduino microcontroller and capacitive 
 2. Isolated sensor-reading module
 3. Isolated positional input module
 4. Isolated voltage trigger module
+
+# Developers Guide
+
+1.	Attach capacitive displacement sensors to the Arduino Mega
+2.	Select Arduino Mega in the Arduino IDE
+3.	Run `CEW_Automation.ino` in the Arduino IDE
+4.	Open the serial monitor and input desired liquid metal position 
