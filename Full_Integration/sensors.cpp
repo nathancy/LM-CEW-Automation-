@@ -11,7 +11,7 @@
 #include "sensors.h"
 #include "voltage.h"
 
-/* Create instances of sensors */
+/* Create instances of sensors. On microcontroller: (Resistor, wire) pins */
 CapacitiveSensor cs_27_29 = CapacitiveSensor(27,29); 
 CapacitiveSensor cs_35_37 = CapacitiveSensor(35,37); 
 CapacitiveSensor cs_43_45 = CapacitiveSensor(43,45);    
@@ -22,7 +22,7 @@ CapacitiveSensor cs_51_53 = CapacitiveSensor(51,53);
  * Name:        Sensors_Init
  * Returns:     Nothing
  * Parameter:   Nothing
- * Description: Initialize sensors and disable autocalibrate
+ * Description: Initialize sensors and disable auto-calibrate
  * 
  ******************************/
 void sensors_Init()
@@ -100,7 +100,7 @@ int get_metalPosition()
  * Returns:     Nothing
  * Parameter:   User-defined position and current liquid metal position in channel
  * Description: Translates user-defined position into internal destination position.
- *              Continiously polls the sensors and outputs the readings to the serial monitor
+ *              Continuously polls the sensors and outputs the readings to the serial monitor
  *              until the liquid metal has reached its desired destination.
  *              
  *              Sensor Number (1-4) *Length of channel is 10

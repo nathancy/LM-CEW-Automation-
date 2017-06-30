@@ -54,7 +54,7 @@ void setup()
  ******************************/
 void loop()                    
 {
-    /* Continiously poll sensor readings and take average of 10 readings */
+    /* Continuously poll sensor readings and take average of 10 readings */
     for(int count = 0; count < 10; count++)
     {
       total_27_29 += cs_27_29.capacitiveSensor(5);
